@@ -93,25 +93,52 @@
             <div class="form-section-container">
 
                 <div class="form-title">
-                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quam animi reprehenderit.</h2>
+                    <h2>Lorem, ipsum <span class="form-title-bold">dolor</span> sit amet consectetur adipisicing elit. <span class="form-title-emphasis">Voluptates quam animi reprehenderit.</span></h2>
                     <img src="assets/images/notebook-png.png" alt="notebook">
                 </div>
+
                 <div class="form">
-                    <div class="form-content">
-                        <input class="input" type="text" id="name" required>
-                        <input class="input" type="text" id="cnpj" required>
-                        <input class="input" type="text" id="email" required>
-                        <input class="input" type="text" id="phone" required>
-                        <input class="input" type="text" id="company" required>
-                        <button class="input" id="inputButton">
-                            <img src="assets/images/arrow-right-solid.svg" alt="">
-                            Entre em <span class="button-form-bold">contato</span>
+                    <form action="" class="form-content">
+                        <div class="input-wrap">
+                            <label for="name">NOME COMPLETO*</label>
+                            <input class="input" type="text" id="name" required>
+                        </div>
+
+                        <div class="input-wrap">
+                            <label for="cnpj">CNPJ*</label>
+                            <input class="input" type="text" id="cnpj" required>
+                        </div>
+
+                        <div class="input-wrap">
+                            <label for="email">E-MAIL*</label>
+                            <input class="input" type="text" id="email" required>
+                        </div>
+
+                        <div class="input-wrap">
+                            <label for="phone">TELEFONE*</label>
+                            <input class="input" type="text" id="phone" required>
+                        </div>
+
+                        <div class="input-wrap">
+                            <label for="company">EMPRESA*</label>
+                            <input class="input" type="text" id="company" required>
+                        </div>
+
+                        <button type="submit" class="input" id="inputButton">
+                            <img src="assets/images/arrow-right-solid-yellow.svg" alt="">
+                            Entre em contato
                         </button>
-                    </div>
+                    </form>
                 </div>
 
             </div>
         </section>
+
+        <footer>
+            <div class="footer-container">
+                <p>© 2025 - Teste Woolly</p>
+            </div>
+        </footer>
 
     </main>
 
