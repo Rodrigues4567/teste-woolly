@@ -147,6 +147,7 @@ body {
 /******************* VIDEO SECTION *******************/
 .video-section {
     background-color: var(--secondary-color);
+    padding-bottom: 6rem;
 }
 
 .video-section-container {
@@ -241,7 +242,6 @@ body {
     border: 2px solid black;
     background-color: var(--primary-color);
     cursor: pointer;
-    margin-bottom: 6rem;
 }
 
 .button-fale-conosco:hover {
